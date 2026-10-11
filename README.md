@@ -6,7 +6,7 @@
 
 En este laboratorio armé una red con redundancia para probar distintos escenarios de falla y comprobar cómo se recupera la conectividad.
 
-## 🌐 Topología
+## Topología
 
 La red está formada por **3 routers, 3 switches y 3 PCs**.
 
@@ -36,7 +36,7 @@ También configuré una ruta estática flotante en R1 como alternativa al camino
 
 **Seguridad:** utilicé una ACL extendida para impedir que los equipos de VLAN 25 accedieran a la red `172.30.100.0/24`, permitiendo el resto del tráfico.
 
-## 🔍 Pruebas y troubleshooting
+## Pruebas y troubleshooting
 
 Después de configurar la red, simulé varias fallas:
 
@@ -56,13 +56,13 @@ Corregí la configuración y repetí los pings para comprobar que la política d
 
 También resolví problemas de direccionamiento IP y de aprendizaje de rutas OSPF durante el laboratorio.
 
-## 📁 Archivo Packet Tracer
+## Archivo Packet Tracer
 
 El archivo `.pkt` contiene la topología y las configuraciones de los dispositivos.
 
 Se puede abrir en Cisco Packet Tracer para revisar los protocolos, ejecutar comandos de verificación y reproducir las pruebas de failover.
 
-## 💡 Qué aprendí
+## Qué aprendí
 
 Este laboratorio me ayudó a entender mejor cómo trabajan juntas las tecnologías de switching, routing, redundancia y seguridad.
 
